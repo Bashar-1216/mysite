@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects - Bashar Almuntaser</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">Bashar Almuntaser</h1>
+            <nav class="nav-links">
+                <button class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="desktop-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="mobile-nav-overlay" id="mobileNavOverlay">
+        <div class="mobile-nav-content">
+            <button class="close-btn" id="closeNavBtn"><i class="fas fa-times"></i></button>
+            <ul class="mobile-nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <section class="projects-section" id="projects">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-down" data-aos-duration="1000">My Projects</h2>
+                <p class="section-description" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Explore my diverse portfolio showcasing innovative AI/ML solutions.</p>
+
+                <div class="projects-grid">
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                        <img src="stu.jpg" alt="Student Performance Prediction System" class="project-img">
+                        <div class="project-content">
+                            <h4 class="project-title">Student Performance Prediction System</h4>
+                            <p class="project-dates"><strong>Dates:</strong> Sept 2024 – Oct 2024</p>
+                            <p class="project-description">Designed and developed a machine learning model using Decision Tree Classifier to forecast students' academic performance. Tuned hyperparameters to achieve 95% accuracy, enabling early intervention and personalized learning recommendations.</p>
+                            <p class="project-tech"><strong>Tools:</strong> Python, Scikit-learn, Pandas, Matplotlib, Tkinter</p>
+                            <a href="https://github.com/Bashar-1216/Student-Performance-Prediction-System.git" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                        <img src="co.png" alt="AI-Based E-Commerce Platform for Yemeni Coffee" class="project-img">
+                        <div class="project-content">
+                            <h4 class="project-title">AI-Based E-Commerce Platform for Yemeni Coffee</h4>
+                            <p class="project-dates"><strong>Dates:</strong> Sept 2024 – Nov 2024</p>
+                            <p class="project-description">Created an online store highlighting premium Yemeni coffee, integrating product categories, admin/customer roles, and a visually appealing interface. Focused on user experience and cultural branding to promote local heritage.</p>
+                            <p class="project-tech"><strong>Stack:</strong> PHP, MySQL, Bootstrap, HTML/CSS, JavaScript</p>
+                            <a href="https://github.com/Bashar-1216/AI-Based-E-Commerce-Platform-for-Yemeni-Coffee.git" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                        <img src="m.jpg" alt="Real-Time Driver Monitoring System" class="project-img">
+                        <div class="project-content">
+                            <h4 class="project-title">Real-Time Driver Monitoring System</h4>
+                            <p class="project-dates"><strong>Dates:</strong> 06/2024 - 07/2024</p>
+                            <p class="project-description">Built a computer vision system to detect driver drowsiness using eye closure rate and head tilt patterns. Integrated voice assistant commands and auditory alerts to ensure safety.</p>
+                            <p class="project-tech"><strong>Technologies:</strong> OpenCV, MediaPipe, PyTTSX3, SpeechRecognition, Python</p>
+                            <a href="https://github.com/Bashar-1216/Real-Time-Driver-Monitoring-System.git" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                        <img src="e.jpg" alt="AI-Powered Exercise Tracker" class="project-img">
+                        <div class="project-content">
+                            <h4 class="project-title">AI-Powered Exercise Tracker (Squat Counter)</h4>
+                            <p class="project-dates"><strong>Dates:</strong> 01/2025 - Ongoing</p>
+                            <p class="project-description">Developed a pose estimation-based fitness assistant that tracks user form and counts squat repetitions using joint angle detection. Provided live feedback on posture and performance.</p>
+                            <p class="project-tech"><strong>Stack:</strong> Python, OpenCV, MediaPipe</p>
+                            <a href="https://github.com/Bashar-1216/AI-Powered-Exercise-Tracker-Squat-Counter-Gesture-Control.git" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                        <img src="mi.jpg" alt="Mobile Application for Medical Image Analysis" class="project-img">
+                        <div class="project-content">
+                            <h4 class="project-title">Mobile Application for Medical Image Analysis</h4>
+                            <p class="project-dates"><strong>Status:</strong> In Progress</p>
+                            <p class="project-description">Built a cross-platform Flutter app for loading and displaying medical images (X-rays, CT, MRI). Laid the groundwork for future integration of diagnostic AI models.</p>
+                            <p class="project-tech"><strong>Stack:</strong> Flutter, TensorFlow Lite (planned)</p>
+                            <a href="#" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+                        <img src="h.png" alt="Hand Gesture Computer Control" class="project-img">
+                        <div class="project-content">
+                            <h4 class="project-title">Hand Gesture Computer Control</h4>
+                            <p class="project-dates"><strong>Status:</strong> Recent Project</p>
+                            <p class="project-description">A system for controlling computer functions like mouse navigation, clicks, and screenshots using hand gestures recognized via webcam.</p>
+                            <p class="project-tech"><strong>Stack:</strong> Python, OpenCV, MediaPipe, PyAutoGUI, Pynput, NumPy</p>
+                            <a href="https://github.com/Bashar-1216/AI-Powered-Exercise-Tracker-Squat-Counter-Gesture-Control.git" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+  
+        <footer class="footer">
+        <div class="container">
+            <h3 class="footer-name" data-aos="fade-up" data-aos-duration="1000">Bashar Almuntaser</h3>
+            <p class="footer-title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">AI Student & Developer</p>
+            <ul class="footer-nav-links" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="social-icons footer-social-icons" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                <a href="https://github.com/Bashar-1216" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/bashar-almontaser-4b367027b" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:almuntaserbashar@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="copyright" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">© 2025 Bashar Almuntaser. All Rights Reserved. Built with passion and modern technology.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script> </body>
+</html>
